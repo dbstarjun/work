@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: #222328;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;    
+}
+
+header {
+    width: 1200px;
+    height: 100px;
+}
+
+.logo {
+    float: left;
+    width: 150px;
+    height: 100%;
+    background-color: black;
+}
+
+.menu {
+    width: 800px;
+    height: 50px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 35px;
+    background-color:white;
+    position: relative;
+}
+
+.main-menu {
+    width: 800px;
+    height: 50px;
+}
+
+.main-menu ul li {
+    float: left;
+    line-height: 50px;
+    text-align: center;
+}
+
+.main-menu ul li{
+    display: block;
+    width: 25%;
+    height: 50px;
+}
+
+.main-menu ul li:hover {
+    background-color:black;
+}
+
+.main-menu ul li:hover a{
+    color: white;
+}
+
+.sub-menu {
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    background-color: white;
+    display: none;
+    z-index: 999;
+}
+
+.sub-menu ul {
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.sub-menu ul li {
+    display: block;
+}
+
+.sub-menu ul li:hover {
+    background-color: black;
+}
+
+.sub-menu ul li:hover a{
+    color: white;
+}
+
+
+.slide {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.slide > a > img {
+    position: absolute;
+    width: 1200px;
+    height: 300px;
+    left: -100%;
+    top: 0;
+}
+
+.slide > a:first-child img{
+    left: 0;
+}
+
+.contents {
+    width: 1200px;
+    height: 200px;
+    background-color: black;
+}
+
+footer {
+    width: 1200px;
+    height: 100px;
+    background-color: azure;
+}
+
+.footerlogo {
+    float: left;
+    width: 150px;
+    height: 100%;
+    background-color: black;
+}
